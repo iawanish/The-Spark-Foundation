@@ -40,7 +40,8 @@
     .text-big{
         text-align: center;
         font-size: 30px;
-        color: white;
+        color: black;
+        font-weight:700;
     }
     .text-small{
         text-align: center;
