@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    /* cursor: pointer; */
+   /* flex-direction: row; */
+}
+.nav-list{
+    width: 50%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color:grey ;
+}
+.rightNav{
+     /* background-color: blue; */
+     width: 50%;
+     text-align: right;
+     padding: 5px 20px;
+}
+#search{
+    padding: 5px;
+}
+#search-submit {
+    background: url(icon-search.svg) no-repeat;
+    background-size: contain;
+    /* display: block; */
+    width: 45px;
+    height: 45px !important;
+    text-indent: -9999px;
+    /* position: absolute; */
+    /* top: 0; */
+    /* right: 0; */
+    /* margin: 0; */
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    border: 0 none;
+    cursor: pointer;
+}
+.logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 50%;
+    border: 4px solid white;
+    border-radius: 50px;
+    margin: 5px;
+
+}
+.background{
+    background: rgba(0, 0,0, 0) url('stray-dog.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-big{
+    font-size: 40px;
+}
+.text-small{
+    font-size: 20px;
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 61%;
+    /* padding: 6px 0px; */
+    border: 4px solid white;
+    border-radius: 56px;
+    display: block;
+    margin: auto;
+    height: 100%;
+}
+
+.box-main{
+    display: flex;
+    flex-direction: row-reverse;
+    color: b;
+    justify-content: center;
+    align-items: center;
+    color: #120a0a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 65%;
+    height: 90%;
+    margin: auto;
+    font-weight: 700;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    /* margin: 4px 2px; */
+    transition: 0.3s;
+    transform:scale(1);
+  }
+.btn-sm{
+    padding: 6px 10px;
+}
+.btn-big{
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.btn-dark{
+    color: black;
+    border: 2px solid black;
+}
+.donate{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.btn:hover {
+    background-color: #3e8e41;
+    color: white;
+    transform:scale(1.2);
+  }
+  .buttons{
+    margin: auto;
+    margin-top: 15px;
+}
+.section{
+    /* height: 400px; */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 75%;
+    margin: auto;
+    padding: 15px 15px;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+.sectionSubTag{
+    padding: 10px 10px;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+.paras{
+    padding: 0px 65px;
+}
+.thumbnail img{
+    /* width: 150%; */
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.contact{
+    background-color: #f2efef;
+    /* height: 100vh; */
+}
+
+.center-div{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.center-div h2{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    color: #472222;
+    font-size: 22px;
+}
+.icon{
+    padding: 5px;
+    /* background-color: #ded6d6; */
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    /* margin-top: 25px; */
+    /* box-shadow: 1px 4px 2px 2px #ded6d6; */
+
+}
+.circle{
+    height: 35px;
+    width: 35px;
+    border:2px solid blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+.text-center{
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 30px;
+}
+.form{
+    max-width: 50%;
+    margin: 20px auto;
+
+}
+.form-input{
+    margin: 15px 0px;
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 4px 2px;
+    border-radius: 4px;
+}
+.text-footer{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 18px;
+    color: black;
+}
+
+.burger{
+    position: absolute;
+    top: 15px;
+    right: 5%;
+    cursor: pointer;
+    display: none;
+
+}
+.line{
+    width: 34px;
+    margin: 3px 3px;
+    background-color: white;
+    height: 4px;
+}
+
